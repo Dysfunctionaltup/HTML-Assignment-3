@@ -1,0 +1,137 @@
+@font-face{
+    font-family: 'UNIVERSAL' ;
+    src: url('./font/Uni_acc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#casting {
+    display: inline-block;
+    position: relative;
+    transform: translateY(-5.5px);
+}
+
+
+body {
+    font-family: 'UNIVERSAL', sans-serif;
+    color:#b5c3ea;
+    background-image: url('./images/End game poster.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+}
+p {
+    margin: 0.01px 0; /* Adjusts spacing between paragraphs */
+  }
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-text {
+    display: flex; /* Use flexbox for alignment */
+  flex-wrap: wrap; /* Allow wrapping if needed */
+  align-items: flex-start; /* Align all items at the top */
+  gap: 10px; /* Add equal spacing between the divs */
+    position: absolute; /* Fixes the section at the top of the document */
+    top: 10px; /* Aligns to the very top of the document */
+    width: 100%;
+    left: 17px; /* Centers the content horizontally */
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: inline-block; /* Ensures divs are aligned in a row */
+    margin: 0 2px; /* Space between each div */
+    text-align: center; /* Centers the text inside the div */
+    font-family: UNIVERSAL, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  
+
+
+#logo {
+    position: relative; /* Set relative position for containing block */
+    width: auto;
+    height: 150px; /* Example container size */
+ }
+
+
+ img {
+    position: absolute; /* Enables hard-coded placement */
+    top: 700px; /* Distance from the top of the container */
+    left: 130px; /* Distance from the left of the container */
+    width: 300px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.medium {
+    font-size: 1.2vh;
+}
+
+.small {
+    font-size: 0.8vh;
+}
+
+.medium2 {
+    font-size: 0.8vh;
+}
+
+.small2 {
+    font-size: 0.4vh;
+}
+
+.date img {
+    position: relative; /* Set relative position for containing block */
+    width: auto;
+    height: 30px; /* Example container size */
+    top: 740px;
+    margin-left: 160px;
+}
+
+.marvel img {
+    position: relative; /* Set relative position for containing block */
+    width: auto;
+    height: 18px; /* Example container size */
+    top: 712px;
+    margin-left: -80px;  
+}
+
+.bottom-text{
+    color: #3d416d;
+      margin-top: -54px;
+      transform: translateY(700px);
+    font-size: 12.5px;
+    margin-left: 125px;
+}
+
+.bottom-container2 {
+   
+    margin-left: -25px;
+}
+
+.bottom-container3 {
+    margin-left: -43px;
+}
+.bottom-container4 {
+    margin-left: -40px;
+}
+
+.bottom-container4-5 {
+    margin-left: 138px;
+}
+.bottom-container5_5 {
+    margin-left: 190px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+    .container {
+        width: 8%; /* Make the containers slightly larger for mobile */
+        font-size: 0.6em;
+    }
+}
